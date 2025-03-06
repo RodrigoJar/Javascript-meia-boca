@@ -1,0 +1,20 @@
+Primeira aula de Java no segundo ano
+
+package primeiraAula;
+
+public class Principal {
+
+	public static void main(String[] args) {
+		
+		        // Definir a nota e as faltas diretamente no código
+		        double nota = 8.5;  // Exemplo de nota
+		        int faltas = 5;     // Exemplo de número de faltas
+
+		        // Verificar se a nota é maior ou igual a 7 e faltas menor que 10
+		        if (nota >= 7 && faltas < 10) {
+		            System.out.println("Aprovado");
+		        } else {
+		            System.out.println("Reprovado");
+		        }
+		    }
+		}
