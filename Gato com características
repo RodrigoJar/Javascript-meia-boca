@@ -1,0 +1,43 @@
+Falta a parte explicando qual é o principal, que é resolvido marcando a caixa na criação da pasta
+package aulaclasses;
+
+public class Principal {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Gato gatol = new Gato();
+		gatol.raca = "Viralata";
+		gatol.nome = "Fiu Fiu";
+		gatol.peso = 13.5;
+		
+		System.out.println(gatol.raca);
+		System.out.println(gatol.nome);
+		System.out.println(gatol.peso);
+		gatol.comer();
+		gatol.dormir();
+		gatol.miar();
+
+	}
+
+}
+========================================
+
+package aulaclasses;
+
+public class Gato {
+	
+	public String raca;
+	public String nome;
+	public double peso;
+	
+    public void miar() {
+    	System.out.println("mmmiiiiaaaauuu");
+    }
+    public void comer() {
+    	System.out.println("bastante");
+    }
+    public void dormir() {
+    	System.out.println("muito tempo");
+}
+
+}
